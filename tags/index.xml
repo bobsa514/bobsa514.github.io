@@ -6,6 +6,43 @@
     <description>Recent content in Tags on Boyang Sa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 25 Sep 2022 21:28:54 -0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>economics</title>
+      <link>/tags/economics/</link>
+      <pubDate>Sun, 25 Sep 2022 21:28:54 -0700</pubDate>
+      
+      <guid>/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandas</title>
+      <link>/tags/pandas/</link>
+      <pubDate>Sun, 25 Sep 2022 21:28:54 -0700</pubDate>
+      
+      <guid>/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>planning</title>
+      <link>/tags/planning/</link>
+      <pubDate>Sun, 25 Sep 2022 21:28:54 -0700</pubDate>
+      
+      <guid>/tags/planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Sun, 25 Sep 2022 21:28:54 -0700</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

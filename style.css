@@ -10,6 +10,8 @@
   --bg: #fafaf9;
   --text: #1a1a1a;
   --muted: #6b7280;
+  --subtle: #374151;
+  --border: #e5e5e3;
   --link: #1a1a1a;
   --max-width: 640px;
 }
@@ -25,7 +27,7 @@ html {
 body {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 80px 24px 80px;
+  padding: 80px 24px;
   line-height: 1.7;
 }
 
@@ -88,19 +90,15 @@ a:hover {
   color: var(--text);
 }
 
-/* Page title (cv, projects) */
+/* Page title (cv, projects) — same as h1 but more bottom space */
 .page-title {
-  font-size: 1.1rem;
-  font-weight: 500;
   margin-bottom: 48px;
-  letter-spacing: -0.01em;
 }
 
 /* CV Timeline */
 .timeline {
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
 
 .timeline-entry {
@@ -108,11 +106,11 @@ a:hover {
   grid-template-columns: 100px 1fr;
   gap: 24px;
   padding: 28px 0;
-  border-top: 1px solid #e5e5e3;
+  border-top: 1px solid var(--border);
 }
 
 .timeline-entry:last-child {
-  border-bottom: 1px solid #e5e5e3;
+  border-bottom: 1px solid var(--border);
 }
 
 .timeline-year {
@@ -130,7 +128,7 @@ a:hover {
 
 .timeline-content p {
   font-size: 0.95rem;
-  color: #374151;
+  color: var(--subtle);
   margin-bottom: 0;
 }
 
@@ -138,16 +136,15 @@ a:hover {
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
 
 .project-entry {
   padding: 28px 0;
-  border-top: 1px solid #e5e5e3;
+  border-top: 1px solid var(--border);
 }
 
 .project-entry:last-child {
-  border-bottom: 1px solid #e5e5e3;
+  border-bottom: 1px solid var(--border);
 }
 
 .project-name {
@@ -167,7 +164,7 @@ a:hover {
 
 .project-desc {
   font-size: 0.95rem;
-  color: #374151;
+  color: var(--subtle);
   margin-bottom: 10px;
 }
 
@@ -180,6 +177,10 @@ a:hover {
 @media (max-width: 480px) {
   body {
     padding: 48px 20px 64px;
+  }
+
+  .back {
+    margin-bottom: 32px;
   }
 
   .timeline-entry {
